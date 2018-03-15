@@ -1,0 +1,27 @@
+body {
+   background-color: #eee;
+
+}
+
+.nav {
+	background-color: #bbb;
+	margin-bottom: 50px;
+}
+
+h5 {
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+#imgESRI{
+    height:2em;
+}
+
+
+.navbar-toggler{
+    float: right;
+    
+}
+#elementsMenu{
+    float: right;
+    background-color:#eee;
+}
