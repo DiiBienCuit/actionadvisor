@@ -27,10 +27,10 @@
         <h2 class="form-signin-heading">Action Advisor Connexion</h2>
         
         <?php // Message d'erreur si mauvais identifiants, nettoyage des variables de session
-         /* if(isset($_SESSION['form_erreur'])){
+          if(isset($_SESSION['form_erreur'])){
               echo '<div class="alert alert-danger" role="alert"> Mail ou mot de passe incorrect</div>';
               session_unset();
-          }*/
+          }
         ?>
 
         <input type="email" id="mail" name="mail" class="form-control" onFocus="select()" placeholder="Username" required>

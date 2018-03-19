@@ -142,7 +142,7 @@ function calculNote(data){
 // donner le conseil
 function conseil(data){
     calculNote(data);
-    var conseil = document.getElementById("conseil-airbus");
+    var conseil = document.getElementById("conseil-korian");
     if(note<=4){
         conseil.innerHTML= "Vendre";
         conseil.style.color = "red";
@@ -236,6 +236,6 @@ if(d.getMonth()<=9){
 }
 var newsBeginDate = beginDate + "-" + (d.getDate()).toString();
 
-$.getJSON("https://newsapi.org/v2/everything?language=en&q=airbus&from="+newsBeginDate+"&apiKey=468cf88b7d3a49dabe52086671bbb4ee", updateNews);
-$.getJSON("https://www.quandl.com/api/v3/datasets/EURONEXT/AIR.json?api_key=Zvxsyh15Zw6CniyvnpoL&start_date=2017-09-20&order=desc", addData);
+$.getJSON("https://newsapi.org/v2/everything?language=en&q=korian&from="+newsBeginDate+"&apiKey=468cf88b7d3a49dabe52086671bbb4ee", updateNews);
+$.getJSON("https://www.quandl.com/api/v3/datasets/EURONEXT/KORI.json?api_key=Zvxsyh15Zw6CniyvnpoL&start_date=2017-09-20&order=desc", addData);
 

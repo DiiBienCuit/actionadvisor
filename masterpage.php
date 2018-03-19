@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -27,9 +30,9 @@
   </head>
 
   <body background="photo/background.jpg">
-  
+     
   <div>
-    <h2>Mes entreprises</h2>
+  <h2>Mes entreprises</h2>
     <div style="padding:20px 70px 100px 70px;">
     <a class="btn btn-lg btn-secondary btn-block" href="../entreprises_details/airbus.php"><img height=40px weight=120px src="../photo/airbus.png" alt="Logo Airbus"></a>
     <a class="btn btn-lg btn-secondary btn-block" href="../entreprises_details/loreal.php"><img height=40px weight=120px src="../photo/loreal.png" alt="Logo Loreal"></a>
